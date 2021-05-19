@@ -63,7 +63,7 @@ function Main(props){
           path="/cheese/:id"
           render={rp => (
             <Show
-              people={cheese}
+              cheese={cheese}
               updateCheese={updateCheese}
               deleteCheese={deleteCheese}
               //because the router props are an object and 
